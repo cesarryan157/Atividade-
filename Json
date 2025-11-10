@@ -1,0 +1,5 @@
+{
+  "status": "success",
+  "message": "Usuário criado",
+  "data": { "id": 1, "nome": "Admin Tech", "email": "admin@techmanage.com" }
+}
