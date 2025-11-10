@@ -1,0 +1,17 @@
+POST   /api/users
+GET    /api/users
+GET    /api/users/:id
+PUT    /api/users/:id
+DELETE /api/users/:id
+
+POST   /api/projects
+GET    /api/projects
+GET    /api/projects/:id
+PUT    /api/projects/:id
+DELETE /api/projects/:id
+
+POST   /api/tasks
+GET    /api/tasks
+GET    /api/tasks/:id
+PUT    /api/tasks/:id
+DELETE /api/tasks/:id
