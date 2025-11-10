@@ -1,0 +1,10 @@
+// migration create-users
+await queryInterface.createTable('users', {
+  id: { type: Sequelize.INTEGER, primaryKey: true, autoIncrement: true },
+  nome: { type: Sequelize.STRING, allowNull: false },
+  email: { type: Sequelize.STRING, unique: true, allowNull: false },
+  senha: { type: Sequelize.STRING, allowNull: false },
+  perfil: { type: Sequelize.STRING, allowNull: false, defaultValue: 'dev' },
+  createdAt: { type: Sequelize.DATE },
+  updatedAt: { type: Sequelize.DATE }
+});
